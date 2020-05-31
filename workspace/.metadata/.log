@@ -1,0 +1,2115 @@
+!SESSION 2020-05-31 20:54:18.150 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /home/alan/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:24.282
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:24.404
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:24.495
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:24.498
+!MESSAGE Initializing Java Language Server 0.56.0.202005261235
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:24.523
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:24.523
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:24.588
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:24.589
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:24.758
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:26.583
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:26.610
+!MESSAGE Workspace initialized in 2068ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:26.616
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:26.618
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:26.635
+!MESSAGE >> New configuration: {java={dependency={packagePresentation=flat}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=automatic}, trace={server=off}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true}, implementationsCodeLens={enabled=false}, saveActions={organizeImports=false}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, selection={enabled=true}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={filteredTypes=[java.awt.*, com.sun.*], enabled=true, overwrite=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, format={enabled=true, comments={enabled=true}, onType={enabled=true}}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:26.648
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:27.407
+!MESSAGE Reconciled 0. Took 132 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:27.571
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:27.571
+!MESSAGE 1 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:27.574
+!MESSAGE Validated 1. Took 154 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:27.587
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:27.591
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:27.592
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:54:27.593
+!MESSAGE >> watchers registered
+!SESSION 2020-05-31 20:56:28.844 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /home/alan/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-05-31 20:56:29.422
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:30.316
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:30.423
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:30.449
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:30.450
+!MESSAGE Initializing Java Language Server 0.56.0.202005261235
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:30.465
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:30.465
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:30.489
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:30.944
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.core.resources 4 77 2020-05-31 20:56:30.948
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2020-05-31 20:56:30.948
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-05-31 20:56:30.948
+!MESSAGE /home/alan/Java/workspace/jdt.ls-java-project overlaps the location of another project: 'jdt.ls-java-project (2)'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-31 20:56:30.949
+!MESSAGE Initialization failed 
+!STACK 0
+java.lang.RuntimeException: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.lambda$1(EclipseProjectImporter.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importToWorkspace(EclipseProjectImporter.java:69)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:94)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:196)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:98)
+	... 8 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.006
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.012
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.014
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.030
+!MESSAGE >> New configuration: {java={dependency={packagePresentation=flat}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=automatic}, trace={server=off}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true}, implementationsCodeLens={enabled=false}, saveActions={organizeImports=false}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, selection={enabled=true}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={filteredTypes=[java.awt.*, com.sun.*], enabled=true, overwrite=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, format={enabled=true, comments={enabled=true}, onType={enabled=true}}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.031
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.182
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.191
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.192
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.194
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-31 20:56:31.266
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token "void", record expected; code: 1610612940; resource: /home/alan/Java/dog.java; line: 1
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.278
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.282
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.289
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.347
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.724
+!MESSAGE Reconciled 0. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.807
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.843
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.883
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:31.924
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:32.130
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:32.332
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:32.575
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:32.778
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:32.989
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:33.061
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:33.476
+!MESSAGE Reconciled 0. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:33.912
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:33.913
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:33.913
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:34.988
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:35.117
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:35.165
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:35.178
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:35.227
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:35.309
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:35.311
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:35.312
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:35.345
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:35.347
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:35.537
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:35.716
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:35.997
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:36.202
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:36.221
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:36.389
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:36.557
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:36.760
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:36.918
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:37.127
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:37.294
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:37.499
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:37.557
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:37.569
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:37.571
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:37.637
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:37.649
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:37.651
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:37.836
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:37.839
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:38.052
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:38.265
+!MESSAGE Reconciled 0. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:38.682
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:38.683
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:38.683
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:39.325
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:39.328
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:39.329
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:39.786
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.200
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.200
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.201
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.245
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.248
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.251
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.253
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.478
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.653
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.813
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.826
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.862
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.863
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.873
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:40.899
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:41.043
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:41.248
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:41.263
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:41.445
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:41.597
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:41.742
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:41.853
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:41.866
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:41.910
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:42.006
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:42.272
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:42.412
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:42.575
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:42.824
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:42.824
+!MESSAGE 3 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:42.825
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:42.891
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:43.345
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:43.634
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:44.749
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:44.751
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:44.769
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:44.785
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:44.803
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:44.979
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:45.207
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:45.431
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:45.617
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:45.621
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:45.621
+!MESSAGE 3 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:45.622
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:45.829
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:45.861
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:45.865
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:45.866
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:45.868
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:45.871
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:46.283
+!MESSAGE Reconciled 0. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:46.700
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:46.701
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:46.701
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:48.708
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:48.914
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:49.121
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:49.245
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:49.253
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:49.266
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:49.301
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:49.458
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:49.663
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:49.761
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:50.109
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:50.117
+!MESSAGE 3 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:50.118
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-31 20:56:50.265
+!MESSAGE Unable to read documentation
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$5(JDTLanguageServer.java:516)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:50.267
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:50.268
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:50.269
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:50.270
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:50.299
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:50.300
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:50.675
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:50.909
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:51.114
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:51.155
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:51.353
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:51.562
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:51.984
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:51.985
+!MESSAGE 3 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:51.985
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:52.837
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:52.981
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:52.993
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:53.031
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:53.190
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:53.441
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:53.492
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:53.623
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:53.701
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:53.889
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:54.100
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:54.201
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:54.213
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:54.291
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:54.608
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:54.709
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:54.885
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:55.047
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:55.262
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:55.504
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:55.504
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:55.709
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:55.914
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.011
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.340
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.341
+!MESSAGE 3 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.341
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-31 20:56:56.523
+!MESSAGE Unable to read documentation
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$5(JDTLanguageServer.java:516)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.524
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.525
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.526
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.527
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.528
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.529
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.529
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.576
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:56.986
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:57.410
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:57.411
+!MESSAGE 2 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:56:57.411
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:01.903
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:07.458
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:07.468
+!MESSAGE >> java/classFileContents
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:07.471
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:10.183
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:10.196
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:10.305
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:10.588
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:10.692
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:11.017
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:11.018
+!MESSAGE 2 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:11.018
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:11.020
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:11.165
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:11.378
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:11.496
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:11.687
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:11.838
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:12.053
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:12.244
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:12.351
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:12.676
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:12.709
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:12.710
+!MESSAGE 3 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:12.710
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:13.280
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:13.493
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:13.690
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:13.794
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:14.118
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:14.118
+!MESSAGE 3 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:14.118
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:14.218
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:14.219
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:14.625
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:15.036
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:15.036
+!MESSAGE 2 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:15.037
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:16.166
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:16.168
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:16.170
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:16.172
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:16.174
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:16.176
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:16.389
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:16.586
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:16.999
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:16.999
+!MESSAGE 2 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:17.000
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:19.166
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:19.373
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:19.572
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:19.597
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:19.757
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:19.770
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:19.778
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:19.963
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:20.163
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:20.574
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:20.576
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:20.576
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:20.576
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:20.588
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:20.593
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:20.786
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:20.980
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:21.015
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:21.223
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:21.341
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:21.544
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:21.796
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:22.152
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:22.309
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:22.516
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:22.598
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:22.725
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:22.924
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:23.106
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:23.319
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:23.521
+!MESSAGE Reconciled 0. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:23.854
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:24.045
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:24.251
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:24.277
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:24.491
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:24.683
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:24.763
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:24.775
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:24.779
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:24.885
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:24.899
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:24.902
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:25.092
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:25.206
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:25.413
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:25.610
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:25.702
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:25.907
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:26.107
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:26.516
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:26.516
+!MESSAGE 2 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:26.517
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:26.765
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:26.767
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:26.769
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:27.228
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:27.360
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:27.364
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:27.766
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:28.176
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:28.176
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:28.176
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:29.142
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:29.148
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:29.151
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:29.553
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:29.561
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:29.562
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:29.963
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:29.964
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:29.964
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:31.398
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:31.400
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:31.402
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:31.409
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:31.806
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:32.217
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:32.217
+!MESSAGE 1 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:32.218
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:34.773
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:34.775
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:34.777
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:34.788
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:35.183
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:35.596
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:35.597
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 20:57:35.597
+!MESSAGE Validated 1. Took 13 ms
+!SESSION 2020-05-31 21:08:14.884 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /home/alan/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-05-31 21:08:15.476
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:16.441
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:16.552
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:16.575
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:16.578
+!MESSAGE Initializing Java Language Server 0.56.0.202005261235
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:16.590
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:16.591
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:16.606
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.130
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.core.resources 4 77 2020-05-31 21:08:17.134
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2020-05-31 21:08:17.134
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-05-31 21:08:17.134
+!MESSAGE /home/alan/Java/workspace/jdt.ls-java-project overlaps the location of another project: 'jdt.ls-java-project (2)'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-31 21:08:17.135
+!MESSAGE Initialization failed 
+!STACK 0
+java.lang.RuntimeException: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.lambda$1(EclipseProjectImporter.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importToWorkspace(EclipseProjectImporter.java:69)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:94)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:196)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:98)
+	... 8 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.218
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.226
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.232
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.275
+!MESSAGE >> New configuration: {java={dependency={packagePresentation=flat}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=automatic}, trace={server=off}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true}, implementationsCodeLens={enabled=false}, saveActions={organizeImports=false}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, selection={enabled=true}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={filteredTypes=[java.awt.*, com.sun.*], enabled=true, overwrite=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, format={enabled=true, comments={enabled=true}, onType={enabled=true}}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.277
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.741
+!MESSAGE Reconciled 0. Took 83 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.822
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.823
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.825
+!MESSAGE Validated 1. Took 79 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.841
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.842
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.846
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:08:17.847
+!MESSAGE >> watchers registered
+!SESSION 2020-05-31 21:19:16.556 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /home/alan/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-05-31 21:19:17.169
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.029
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.139
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.172
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.173
+!MESSAGE Initializing Java Language Server 0.56.0.202005261235
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.195
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.196
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.209
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.703
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.core.resources 4 77 2020-05-31 21:19:18.707
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2020-05-31 21:19:18.707
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-05-31 21:19:18.708
+!MESSAGE /home/alan/Java/workspace/jdt.ls-java-project overlaps the location of another project: 'jdt.ls-java-project (2)'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-31 21:19:18.708
+!MESSAGE Initialization failed 
+!STACK 0
+java.lang.RuntimeException: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.lambda$1(EclipseProjectImporter.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importToWorkspace(EclipseProjectImporter.java:69)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:94)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:196)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:98)
+	... 8 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.725
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.733
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.737
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.758
+!MESSAGE >> New configuration: {java={dependency={packagePresentation=flat}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=automatic}, trace={server=off}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true}, implementationsCodeLens={enabled=false}, saveActions={organizeImports=false}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, selection={enabled=true}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={filteredTypes=[java.awt.*, com.sun.*], enabled=true, overwrite=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, format={enabled=true, comments={enabled=true}, onType={enabled=true}}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:18.759
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:19.204
+!MESSAGE Reconciled 0. Took 121 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:19.317
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:19.317
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:19.319
+!MESSAGE Validated 1. Took 104 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:19.342
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:19.343
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:19.345
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:19.346
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:24.554
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:24.558
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:24.757
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:24.978
+!MESSAGE Reconciled 0. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:25.439
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:25.440
+!MESSAGE 3 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:25.440
+!MESSAGE Validated 1. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:25.801
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:26.213
+!MESSAGE Reconciled 0. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:26.633
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:26.633
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:19:26.633
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:20:17.009
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:20:17.018
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:20:17.190
+!MESSAGE >> shutdown
+!SESSION 2020-05-31 21:22:29.456 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /home/alan/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:30.968
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.082
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.112
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.113
+!MESSAGE Initializing Java Language Server 0.56.0.202005261235
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.129
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.129
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.175
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.629
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.core.resources 4 77 2020-05-31 21:22:31.632
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2020-05-31 21:22:31.632
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-05-31 21:22:31.632
+!MESSAGE /home/alan/Java/workspace/jdt.ls-java-project overlaps the location of another project: 'jdt.ls-java-project (2)'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-31 21:22:31.632
+!MESSAGE Initialization failed 
+!STACK 0
+java.lang.RuntimeException: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.lambda$1(EclipseProjectImporter.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importToWorkspace(EclipseProjectImporter.java:69)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:94)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:196)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:98)
+	... 8 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.688
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.692
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.698
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.733
+!MESSAGE >> New configuration: {java={dependency={packagePresentation=flat}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=automatic}, trace={server=off}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true}, implementationsCodeLens={enabled=false}, saveActions={organizeImports=false}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, selection={enabled=true}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={filteredTypes=[java.awt.*, com.sun.*], enabled=true, overwrite=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, format={enabled=true, comments={enabled=true}, onType={enabled=true}}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.734
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.749
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.752
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.753
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:31.755
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:32.375
+!MESSAGE Reconciled 0. Took 135 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:32.864
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:32.865
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:22:32.867
+!MESSAGE Validated 1. Took 72 ms
+!SESSION 2020-05-31 21:25:15.979 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /home/alan/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:17.445
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:17.583
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:17.607
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:17.608
+!MESSAGE Initializing Java Language Server 0.56.0.202005261235
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:17.626
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:17.627
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:17.640
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.149
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.core.resources 4 77 2020-05-31 21:25:18.162
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2020-05-31 21:25:18.163
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-05-31 21:25:18.163
+!MESSAGE /home/alan/Java/workspace/jdt.ls-java-project overlaps the location of another project: 'jdt.ls-java-project (2)'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-31 21:25:18.163
+!MESSAGE Initialization failed 
+!STACK 0
+java.lang.RuntimeException: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.lambda$1(EclipseProjectImporter.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importToWorkspace(EclipseProjectImporter.java:69)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:94)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:196)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:98)
+	... 8 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.249
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.254
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.260
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.273
+!MESSAGE >> New configuration: {java={dependency={packagePresentation=flat}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=automatic}, trace={server=off}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true}, implementationsCodeLens={enabled=false}, saveActions={organizeImports=false}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, selection={enabled=true}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={filteredTypes=[java.awt.*, com.sun.*], enabled=true, overwrite=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, format={enabled=true, comments={enabled=true}, onType={enabled=true}}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.274
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.574
+!MESSAGE Reconciled 0. Took 196 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.699
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.700
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.701
+!MESSAGE Validated 1. Took 122 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.733
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.734
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.735
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:25:18.736
+!MESSAGE >> watchers registered
+!SESSION 2020-05-31 21:31:53.413 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /home/alan/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:54.850
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:54.947
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:54.964
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:54.965
+!MESSAGE Initializing Java Language Server 0.56.0.202005261235
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:54.980
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:54.980
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.015
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.489
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.core.resources 4 77 2020-05-31 21:31:55.492
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2020-05-31 21:31:55.492
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-05-31 21:31:55.492
+!MESSAGE /home/alan/Java/workspace/jdt.ls-java-project overlaps the location of another project: 'jdt.ls-java-project (2)'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-31 21:31:55.493
+!MESSAGE Initialization failed 
+!STACK 0
+java.lang.RuntimeException: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.lambda$1(EclipseProjectImporter.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importToWorkspace(EclipseProjectImporter.java:69)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:94)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:196)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:98)
+	... 8 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.523
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.526
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.528
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.550
+!MESSAGE >> New configuration: {java={dependency={packagePresentation=flat}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=automatic}, trace={server=off}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true}, implementationsCodeLens={enabled=false}, saveActions={organizeImports=false}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, selection={enabled=true}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={filteredTypes=[java.awt.*, com.sun.*], enabled=true, overwrite=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, format={enabled=true, comments={enabled=true}, onType={enabled=true}}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.551
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.659
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.806
+!MESSAGE Reconciled 0. Took 132 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.904
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.904
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.906
+!MESSAGE Validated 1. Took 90 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.932
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.933
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.934
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:55.936
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:58.720
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:58.926
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:59.146
+!MESSAGE Reconciled 0. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:59.369
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:59.637
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:59.637
+!MESSAGE 3 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:31:59.638
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:32:07.326
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:32:08.594
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:32:09.003
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:32:09.479
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:32:09.484
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:32:09.484
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:34:45.561
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:34:45.569
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:34:45.599
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:34:45.605
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:34:48.753
+!MESSAGE >> shutdown
+!SESSION 2020-05-31 21:35:06.560 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /home/alan/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.001
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.096
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.114
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.118
+!MESSAGE Initializing Java Language Server 0.56.0.202005261235
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.134
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.134
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.188
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.613
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.core.resources 4 77 2020-05-31 21:35:08.616
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2020-05-31 21:35:08.616
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-05-31 21:35:08.616
+!MESSAGE /home/alan/Java/workspace/jdt.ls-java-project overlaps the location of another project: 'jdt.ls-java-project (2)'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-31 21:35:08.617
+!MESSAGE Initialization failed 
+!STACK 0
+java.lang.RuntimeException: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.lambda$1(EclipseProjectImporter.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importToWorkspace(EclipseProjectImporter.java:69)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:94)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:196)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:98)
+	... 8 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.700
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.704
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.706
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.719
+!MESSAGE >> New configuration: {java={dependency={packagePresentation=flat}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=automatic}, trace={server=off}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true}, implementationsCodeLens={enabled=false}, saveActions={organizeImports=false}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, selection={enabled=true}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={filteredTypes=[java.awt.*, com.sun.*], enabled=true, overwrite=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, format={enabled=true, comments={enabled=true}, onType={enabled=true}}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.720
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.725
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.730
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.732
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:08.733
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:09.370
+!MESSAGE Reconciled 0. Took 121 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:09.862
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:09.863
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:35:09.866
+!MESSAGE Validated 1. Took 94 ms
+!SESSION 2020-05-31 21:41:01.728 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /home/alan/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.229
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.329
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.362
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.365
+!MESSAGE Initializing Java Language Server 0.56.0.202005261235
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.381
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.381
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.395
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.893
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.core.resources 4 77 2020-05-31 21:41:03.895
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2020-05-31 21:41:03.895
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-05-31 21:41:03.896
+!MESSAGE /home/alan/Java/workspace/jdt.ls-java-project overlaps the location of another project: 'jdt.ls-java-project (2)'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-31 21:41:03.896
+!MESSAGE Initialization failed 
+!STACK 0
+java.lang.RuntimeException: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.lambda$1(EclipseProjectImporter.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importToWorkspace(EclipseProjectImporter.java:69)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:94)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:196)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:98)
+	... 8 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.898
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.901
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.905
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.922
+!MESSAGE >> New configuration: {java={dependency={packagePresentation=flat}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=automatic}, trace={server=off}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true}, implementationsCodeLens={enabled=false}, saveActions={organizeImports=false}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, selection={enabled=true}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={filteredTypes=[java.awt.*, com.sun.*], enabled=true, overwrite=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, format={enabled=true, comments={enabled=true}, onType={enabled=true}}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:03.923
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.185
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.193
+!MESSAGE Reconciled 0. Took 135 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.198
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.226
+!MESSAGE Reconciled 0. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.384
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.384
+!MESSAGE 3 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.387
+!MESSAGE Validated 1. Took 147 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.391
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.426
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.427
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.428
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.430
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:04.833
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:08.961
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:09.370
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:09.622
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:10.033
+!MESSAGE Reconciled 0. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:10.432
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:10.720
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:10.898
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:11.103
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:11.308
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:11.731
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:11.731
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:41:11.732
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:04.210
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:04.219
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:04.318
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:04.321
+!MESSAGE >> workspace/didChangeWatchedFiles 
+!SESSION 2020-05-31 21:43:18.305 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /home/alan/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:19.766
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:19.897
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:19.918
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:19.919
+!MESSAGE Initializing Java Language Server 0.56.0.202005261235
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:19.934
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:19.935
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:19.951
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:20.417
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.core.resources 4 77 2020-05-31 21:43:20.420
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2020-05-31 21:43:20.420
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-05-31 21:43:20.420
+!MESSAGE /home/alan/Java/workspace/jdt.ls-java-project overlaps the location of another project: 'jdt.ls-java-project (2)'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-31 21:43:20.420
+!MESSAGE Initialization failed 
+!STACK 0
+java.lang.RuntimeException: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.lambda$1(EclipseProjectImporter.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importToWorkspace(EclipseProjectImporter.java:69)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:94)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:196)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:98)
+	... 8 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:20.457
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:20.460
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:20.462
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:20.502
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:20.504
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:20.505
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:20.511
+!MESSAGE >> New configuration: {java={dependency={packagePresentation=flat}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=automatic}, trace={server=off}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true}, implementationsCodeLens={enabled=false}, saveActions={organizeImports=false}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, selection={enabled=true}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={filteredTypes=[java.awt.*, com.sun.*], enabled=true, overwrite=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, format={enabled=true, comments={enabled=true}, onType={enabled=true}}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:20.512
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:20.526
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:21.209
+!MESSAGE Reconciled 0. Took 170 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:21.711
+!MESSAGE begin problem for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:21.711
+!MESSAGE 0 problems reported for /dog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:21.712
+!MESSAGE Validated 1. Took 94 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-31 21:43:28.999
+!MESSAGE >> shutdown
